@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2{
@@ -146,7 +146,7 @@ li :hover{
 
     background-color: white;
     border-radius: 20px;
-    box-shadow: 5px 5px 40px #000000;
+    box-shadow: 1px 1px 40px #b9b8b8;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -158,8 +158,9 @@ li :hover{
 
     color: white;
     font-weight: 700;
-    background-image: linear-gradient(#0a9696, #fd0b0b);
-    padding: 10px;
+    background-image: linear-gradient(#4bf716, #2f0bfd);
+    border-radius: 20px;
+    padding: 20px;
 
 }
 
@@ -177,4 +178,66 @@ li :hover{
     text-align: center;
     background-color: gray;
     padding-bottom: 20px;
+    margin-top: 100px;
 }
+
+.static-image{
+    background-image: url('images/food/Project-Cover4.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.static {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 10%;
+    padding-top: 2%;
+    margin-bottom: 10%;
+    padding-bottom: 2%;
+    box-shadow: 10px 10px 30px hsl(0, 13%, 79%);
+    
+    text-align: center;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    
+  }
+  
+  #alfa {
+    width: 30%;
+    margin-left: 5%;
+  }
+  #beta {
+    width: 30%;
+  }
+  #gama {
+    width: 30%;
+  }
+  .hearder {
+    font-size: 3em;
+    font-family: 'Otomanopee One', sans-serif;
+    margin-bottom: 0;
+  }
+
+  #main{
+    text-align: center;
+    background-color: white;
+    /* border-radius: 20px; */
+    
+    /* padding: 5px 5px; */
+  }
+
+  .form{
+    box-shadow: 10px 10px 40px #d4d4d4;
+    margin: 70px;
+  }
+  .box {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 5px;
+    padding: 10px 200px 20px 200px;
+    /* padding-right: 400px */
+    margin-bottom: 5%;
+  }
