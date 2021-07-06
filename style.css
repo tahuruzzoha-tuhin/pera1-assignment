@@ -158,14 +158,15 @@ li :hover{
 
     color: white;
     font-weight: 700;
-    background-image: linear-gradient(#4bf716, #2f0bfd);
+    font-size: 20px;
+    background-image: linear-gradient(#9532ce, #fd0be9);
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 30px ;
 
 }
 
 .extra-color{
-    color: red;
+    color: white;
 }
 
 .recipies{
@@ -176,9 +177,10 @@ li :hover{
 
 .foot{
     text-align: center;
-    background-color: gray;
     padding-bottom: 20px;
     margin-top: 100px;
+    background-color: #9532ce;
+
 }
 
 .static-image{
@@ -224,20 +226,65 @@ li :hover{
   #main{
     text-align: center;
     background-color: white;
+    /* padding-bottom: 10px; */
     /* border-radius: 20px; */
     
     /* padding: 5px 5px; */
   }
 
-  .form{
+  /* .form{
     box-shadow: 10px 10px 40px #d4d4d4;
     margin: 70px;
-  }
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* text-align: left; */
+  /* } */
   .box {
     border: 1px solid gray;
     border-radius: 10px;
     height: 5px;
     padding: 10px 200px 20px 200px;
     /* padding-right: 400px */
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-image: linear-gradient(to right, #9532ce, #9d6db9 , yellow);
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  #division {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 200px;
+  }
+  #footfont{
+    font-size: 30px;
+    font-family: 'Otomanopee One', sans-serif;
+    padding-top: 10px;
+  }
+  #divfoot{
+      float: right;
   }
