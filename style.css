@@ -1,20 +1,88 @@
 body{
     font-family: 'Play', sans-serif;
     margin: 0px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: justify;
+    overflow:hidden;
 }
 
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+ul{
+	padding:0;
+}
+
+a{
+	color:#fff;
+	text-decoration:none;
+}
+/* header li{ */
+    /* text-decoration: none; */
+    /* list-style: none; */
+    /* float: left; */
+    /* padding-right: 10px; */
+/* } */
+
+#navigation-menu{
+    /* height:40px; */
+	/* background:#666; */
+    /* margin-right: 200px; */
+    background-color: gray;
+    padding-bottom: 25px;
+    padding-top: 5px;
+}
+
+#navigation-menu ul{
+	padding-top:13px;
+	padding-left:10px;
+    margin-right: 70px;
+}
+
+#navigation-menu li{
+	list-style:none;
+	float:right;
+	padding-right:20px;
+}
+
+#navigation-menu .active{
+	font-weight: bold;
+	color:#000;
+}
+
+#main{
+	float:left;
+	width:60%;
+}
+
+.food-girl{
+    height: 550px;
+    width: 500px;
+    margin: 50px 50px 0px 0px;
+}
+
+.eat-guy{
+    margin-top: 100px;
+    height: 768px;
+    width: 1368px;
+}
 .first-section{
     display: flex;
-    margin-bottom: 150px;
+    padding-bottom: 250px;
     /* height: 570px; */
     width: 100%;
+    margin-top: 50px;
     
 }
 
 .first-section-div1{
     margin-left: 50px;
+    margin-right: 300px;
     
 }
 
@@ -24,11 +92,11 @@ body{
 
 .second-section{
     display: flex;
-    /* margin-bottom: 150px; */
-    padding-bottom: 100px;
+    margin: 0px;
+    padding: 0px 0px 250px 0px;
     width: 100%;
-    /* height: 50%; */
-    background-image: url('images/Frame-58.jpg');
+    height: auto;
+    background-image: url('images/Frame-58.png');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center center;
@@ -43,6 +111,10 @@ body{
 }
 
 .second-section-div2{
+
+    margin-left: 650px;
+    text-align: justify;
+    padding-right: 50px;
 
 }
 
